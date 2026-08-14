@@ -1,0 +1,5 @@
+# Sideband is a Host-only plugin. Its separate UI companion is optional.
+- insert:
+    - id: sideband
+      name: 'dsh-sideband'
+      config: {}
