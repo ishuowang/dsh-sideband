@@ -55,10 +55,17 @@
     "dsh-plugin",
     "context-handoff",
     "agent-orchestration",
-    "sideband"
+    "sideband",
+    "multi-agent",
+    "session-relay",
+    "native-ui"
   ],
   "license": "MIT",
   "author": "ishuowang <ishuowang@qq.com>",
+  "funding": "https://ifdian.net/a/burienchow",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "node build.mjs",
     "typecheck": "tsc -p tsconfig.json --noEmit",

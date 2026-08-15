@@ -12,6 +12,7 @@ Snapshot now. Summarize aside. Deliver without interrupting the conversation alr
 [![Release](https://img.shields.io/github/v/release/ishuowang/dsh-sideband?display_name=tag&sort=semver&style=flat-square&color=00B894)](https://github.com/ishuowang/dsh-sideband/releases)
 [![CI](https://img.shields.io/github/actions/workflow/status/ishuowang/dsh-sideband/ci.yml?branch=main&style=flat-square)](https://github.com/ishuowang/dsh-sideband/actions)
 [![License](https://img.shields.io/github/license/ishuowang/dsh-sideband?style=flat-square&color=0984E3)](LICENSE)
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com/p/ishuowang/dsh-sideband/)
 
 </div>
 
@@ -64,6 +65,12 @@ For an Agent Team Room destination, install the Room plugin in the same profile:
 ```sh
 dsh plugin --profile web add github:ishuowang/dsh-agent-team-room#v0.4.0
 ```
+
+## Discovery
+
+Sideband is listed in the community-maintained [Awesome DSH Plugin directory](https://awesome-dsh-plugin.com/p/ishuowang/dsh-sideband/), and `dsh-market` includes it automatically from that directory's `plugins.json` catalog. This is community discovery, not DeepSeek certification or endorsement. The repository carries the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic, while `package.json` keywords describe its DSH, context-handoff, session-relay, and native-UI capabilities for ecosystem indexes. DSH reads `dsh.bundle` to install the Host patch and `dsh.client` to load the optional Web companion from the same package.
+
+The package is not published to the npm registry yet. The pinned GitHub installation above remains the supported installation path and includes the prebuilt Host and client artifacts.
 
 ## First relay
 
