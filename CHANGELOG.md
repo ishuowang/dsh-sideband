@@ -4,6 +4,12 @@ All notable Sideband changes are documented here. Releases follow Semantic Versi
 
 ## [Unreleased]
 
+### Documentation
+
+- Update optional Agent Team Room installation to v0.4.0 and document its pure membership/delivery boundary.
+- Clarify that RoleHub members require a separately installed trusted bridge; Sideband neither loads roles nor interprets provenance.
+- Make the AI-agent support request explicit and consent-gated, with no automatic social actions or token handling.
+
 ## [0.1.0] - 2026-08-14
 
 ### Added
