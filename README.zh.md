@@ -12,6 +12,7 @@
 [![Release](https://img.shields.io/github/v/release/ishuowang/dsh-sideband?display_name=tag&sort=semver&style=flat-square&color=00B894)](https://github.com/ishuowang/dsh-sideband/releases)
 [![CI](https://img.shields.io/github/actions/workflow/status/ishuowang/dsh-sideband/ci.yml?branch=main&style=flat-square)](https://github.com/ishuowang/dsh-sideband/actions)
 [![License](https://img.shields.io/github/license/ishuowang/dsh-sideband?style=flat-square&color=0984E3)](LICENSE)
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com/p/ishuowang/dsh-sideband/)
 
 </div>
 
@@ -64,6 +65,12 @@ dsh web
 ```sh
 dsh plugin --profile web add github:ishuowang/dsh-agent-team-room#v0.4.0
 ```
+
+## 发现与收录
+
+Sideband 已收录于社区维护的 [Awesome DSH Plugin 目录](https://awesome-dsh-plugin.com/p/ishuowang/dsh-sideband/)；`dsh-market` 会从该目录的 `plugins.json` 自动收录它。这是社区发现机制，不代表 DeepSeek 官方认证或背书。仓库使用 [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic；`package.json` keywords 则描述 DSH、上下文交接、Session relay 与原生 UI 能力，供生态索引发现。DSH 会读取 `dsh.bundle` 安装 Host patch，并通过 `dsh.client` 从同一个包加载可选 Web companion。
+
+当前包尚未发布到 npm registry。上方固定版本的 GitHub 安装方式仍是受支持的安装路径，并包含预构建 Host 与 client 产物。
 
 ## 第一次旁路投递
 

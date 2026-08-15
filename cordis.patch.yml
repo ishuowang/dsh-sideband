@@ -1,4 +1,4 @@
-# Sideband is a Host-only plugin. Its separate UI companion is optional.
+# Sideband ships a Host service and an optional Web client companion in the same package.
 - insert:
     - id: sideband
       name: 'dsh-sideband'
